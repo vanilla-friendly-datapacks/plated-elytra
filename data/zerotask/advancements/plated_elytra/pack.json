@@ -6,12 +6,12 @@
   },
   "display": {
     "announce_to_chat": false,
-    "description": "",
+    "description": "Plate your elytra with armor pieces!",
     "icon": {
-      "item": ""
+      "item": "minecraft:elytra"
     },
     "show_toast": false,
-    "title": ""
+    "title": "Plated Elytra"
   },
   "parent": "global:zerotask"
 }

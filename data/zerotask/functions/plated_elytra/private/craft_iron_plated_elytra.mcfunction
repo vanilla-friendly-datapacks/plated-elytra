@@ -1,0 +1,10 @@
+# Remove ingredient.
+kill @e[type=minecraft:item,nbt={Item: {id: "minecraft:iron_chestplate"}},distance=..1,limit=1]
+kill @e[type=minecraft:item,nbt={Item: {id: "minecraft:slime_ball"}},distance=..1,limit=1]
+
+# Apply armor value.
+data merge entity @s {Motion: [0.0d, 0.1d, 0.0d], Item: {tag: {display: {Name: '{"translate":"item.plated_elytra.iron","color":"yellow","italic": false}'}, AttributeModifiers: [{AttributeName: "generic.armor", Name: "generic.armor", Amount: 3, Operation: 0, Slot: "chest", UUID: [I; 479578499, 390548714, -2098248631, 699752253]}]}}}
+
+function zerotask:plated-elytra/private/craft_animation
+function zerotask:plated-elytra/private/craft_sound
+particle minecraft:lava ~ ~0.1 ~ 0.1 0.1 0.1 0.01 30
