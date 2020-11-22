@@ -1,3 +1,10 @@
+#######################################################################
+# Author:  SirWindfield (https://github.com/SirWindfield)             #
+# License: GNU GPLv3                                                  #
+#                                                                     #
+# If applicable, credit to other people's work is given in the readme #
+#######################################################################
+
 # Remove ingredient.
 kill @e[type=minecraft:item,nbt={Item: {id: "minecraft:iron_chestplate"}},distance=..1,limit=1]
 kill @e[type=minecraft:item,nbt={Item: {id: "minecraft:slime_ball"}},distance=..1,limit=1]
