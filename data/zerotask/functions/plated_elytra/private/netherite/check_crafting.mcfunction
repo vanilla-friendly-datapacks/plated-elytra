@@ -5,10 +5,4 @@
 # If applicable, credit to other people's work is given in the readme #
 #######################################################################
 
-function zerotask:plated_elytra/private/iron/check_crafting
-function zerotask:plated_elytra/private/golden/check_crafting
-function zerotask:plated_elytra/private/diamond/check_crafting
-function zerotask:plated_elytra/private/netherite/check_crafting
-
-# Re-schedule.
-schedule function zerotask:plated_elytra/private/check_crafting 3s
+execute as @e[type=minecraft:item,nbt={Item: {id: "minecraft:elytra"}}] at @s if entity @e[type=minecraft:item,nbt={Item: {id: "minecraft:slime_ball"}},distance=..1] if entity @e[type=minecraft:item,nbt={Item: {id: "minecraft:netherite_chestplate"}},distance=..1] if block ~ ~-1 ~ minecraft:anvil run function zerotask:plated_elytra/private/netherite/craft
