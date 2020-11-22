@@ -1,0 +1,6 @@
+[build]
+output = "data"
+src = "src"
+
+[template]
+variant = ["iron", "golden", "diamond", "netherite"]
