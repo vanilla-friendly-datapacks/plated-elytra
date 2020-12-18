@@ -22,7 +22,7 @@ To uninstall the datapack, run the `zerotask:plated_elytra/uninstall` function a
 
 ## License
 
-The data pack is licensed under the GPLv3. For more information, take a look at the license file within this repository. All images under the `assets` folder are licensed under [CC BY-NC-ND 4.0][image-license] <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" /></a></p>
+The data pack is licensed under the GPLv3. For more information, take a look at the license file within this repository. All images under the `assets` folder and the `pack.png` file are licensed under [CC BY-NC-ND 4.0][image-license].
 
 ## Credit
 
