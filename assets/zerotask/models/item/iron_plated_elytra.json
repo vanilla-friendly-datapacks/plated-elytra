@@ -8,7 +8,7 @@
       "predicate": {
         "broken": 1
       },
-      "model": "item/broken_elytra"
+      "model": "zerotask:item/broken_iron_plated_elytra"
     }
   ]
 }
