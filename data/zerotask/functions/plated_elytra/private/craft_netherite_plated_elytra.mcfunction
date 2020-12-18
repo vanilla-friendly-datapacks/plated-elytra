@@ -14,4 +14,4 @@ data merge entity @s {Motion: [0.0d, 0.1d, 0.0d], Item: {tag: {CustomModelData: 
 
 function zerotask:plated_elytra/private/craft_animation
 function zerotask:plated_elytra/private/craft_sound
-particle minecraft:lava ~ ~0.1 ~ 0.1 0.1 0.1 0.01 30
+
