@@ -26,7 +26,9 @@ The data pack is licensed under the GPLv3. For more information, take a look at 
 
 ## Credit
 
-Thanks to @DMTHGM for creating the textures.
+- Thanks to @DMTHGM for creating the textures!
+- Crafting animation and sound have been altered from FunkyToc's [Elytra Steamer][steam-elytra]
 
 [image-license]: https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1
 [latest]: https://github.com/vanilla-friendly-datapacks/plated-elytra/releases/latest
+[steam-elytra]: https://www.planetminecraft.com/data-pack/elytra-steamer-steam-punk-elytra/
