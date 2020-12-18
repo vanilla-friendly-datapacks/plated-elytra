@@ -12,7 +12,7 @@ The resourcepack is needed to provide custom items for each plated elytra varian
 
 Drop an elytra together with a chestplate of your choice and a slime ball on top of an anvil.
 
-> **Note:** Chainmail chestplates are not supported and this is intentional.
+> **Note:** Chainmail and leather chestplates are not supported and this is intentional.
 
 ## Uninstallation
 
@@ -22,6 +22,11 @@ To uninstall the datapack, run the `zerotask:plated_elytra/uninstall` function a
 
 ## License
 
-The data pack is licensed under the GPLv3. For more information, take a look at the license file within this repository.
+The data pack is licensed under the GPLv3. For more information, take a look at the license file within this repository. All images under the `assets` folder are licensed under [CC BY-NC-ND 4.0][image-license] <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" /></a></p>
 
+## Credit
+
+Thanks to @DMTHGM for creating the textures.
+
+[image-license]: https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1
 [latest]: https://github.com/vanilla-friendly-datapacks/plated-elytra/releases/latest
