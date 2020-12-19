@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData: 1340001}"
+              "tag": "{CustomModelData: 1340001, zerotask:{PlatedElytra:1b}}"
             },
             {
               "function": "minecraft:set_attributes",
