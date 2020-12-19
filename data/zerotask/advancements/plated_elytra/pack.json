@@ -8,7 +8,8 @@
     "announce_to_chat": false,
     "description": "Plate your elytra with armor pieces!",
     "icon": {
-      "item": "minecraft:elytra"
+      "item": "minecraft:elytra",
+      "nbt": "{CustomModelData: 1340002}"
     },
     "show_toast": false,
     "title": "Plated Elytra"
