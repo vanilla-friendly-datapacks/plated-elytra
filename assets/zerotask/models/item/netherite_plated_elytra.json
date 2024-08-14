@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zerotask:item/netherite_plated_elytra"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "zerotask:item/broken_netherite_plated_elytra"
+    }
+  ]
+}

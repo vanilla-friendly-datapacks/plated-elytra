@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.plated_elytra.netherite",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 1340000}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "name": "generic.armor",
+                  "slot": "chest",
+                  "amount": 4,
+                  "operation": "addition"
+                },
+                {
+                  "attribute": "generic.armor_toughness",
+                  "name": "generic.armor",
+                  "slot": "chest",
+                  "amount": 1,
+                  "operation": "addition"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

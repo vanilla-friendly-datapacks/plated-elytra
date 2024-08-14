@@ -1,0 +1,66 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/elytra"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "item/broken_elytra"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1340000
+      },
+      "model": "zerotask:item/netherite_plated_elytra"
+    },
+    {
+      "predicate": {
+        "broken": 1,
+        "custom_model_data": 1340000
+      },
+      "model": "zerotask:item/broken_netherite_plated_elytra"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1340001
+      },
+      "model": "zerotask:item/diamond_plated_elytra"
+    },
+    {
+      "predicate": {
+        "broken": 1,
+        "custom_model_data": 1340001
+      },
+      "model": "zerotask:item/broken_diamond_plated_elytra"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1340002
+      },
+      "model": "zerotask:item/gold_plated_elytra"
+    },
+    {
+      "predicate": {
+        "broken": 1,
+        "custom_model_data": 1340002
+      },
+      "model": "zerotask:item/broken_gold_plated_elytra"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1340003
+      },
+      "model": "zerotask:item/iron_plated_elytra"
+    },
+    {
+      "predicate": {
+        "broken": 1,
+        "custom_model_data": 1340003
+      },
+      "model": "zerotask:item/broken_iron_plated_elytra"
+    }
+  ]
+}
