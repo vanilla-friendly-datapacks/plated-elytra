@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": [
+      {
+        "text": "Creator of vanilla-friendly datapacks.\n"
+      }
+    ],
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": "sakihokoruhana"
+      }
+    },
+    "show_toast": false,
+    "title": "mainrs"
+  },
+  "parent": "global:root"
+}

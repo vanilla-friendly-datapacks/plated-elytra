@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "group": "zt.elytra",
+    "ingredients": [
+        { "item": "minecraft:elytra" },
+        { "item": "minecraft:netherite_chestplate" },
+        { "item": "minecraft:slime_ball" }
+    ],
+    "result": {
+        "id": "minecraft:elytra",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor",
+                        "id": "zerotask:plated_elytra/netherite_plated_elytra_armor",
+                        "amount": 4,
+                        "slot": "chest",
+                        "operation": "add_value"
+                    },
+                    {
+                        "type": "minecraft:generic.armor_toughness",
+                        "id": "zerotask:plated_elytra/netherite_plated_elytra_armor_toughness",
+                        "amount": 1,
+                        "slot": "chest",
+                        "operation": "add_value"
+                    }
+                ]
+            },
+            "minecraft:custom_model_data": 1340000,
+            "minecraft:custom_name": "{\"translate\": \"item.plated_elytra.netherite\", \"color\": \"yellow\", \"italic\": false}",
+            "minecraft:fire_resistant": {}
+        }
+    }
+}

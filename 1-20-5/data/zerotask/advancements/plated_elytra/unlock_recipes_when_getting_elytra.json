@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "has_elytra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:elytra"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "zerotask:plated_elytra/diamond_plated_elytra",
+            "zerotask:plated_elytra/gold_plated_elytra",
+            "zerotask:plated_elytra/iron_plated_elytra",
+            "zerotask:plated_elytra/netherite_plated_elytra"
+        ]
+    }
+}

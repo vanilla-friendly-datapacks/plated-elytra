@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "zerotask:item/gold_plated_elytra"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "zerotask:item/broken_gold_plated_elytra"
+    }
+  ]
+}

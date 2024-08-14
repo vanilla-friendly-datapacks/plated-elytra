@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "group": "zt.elytra",
+    "ingredients": [
+        { "item": "minecraft:elytra" },
+        { "item": "minecraft:iron_chestplate" },
+        { "item": "minecraft:slime_ball" }
+    ],
+    "result": {
+        "id": "minecraft:elytra",
+        "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor",
+                        "id": "zerotask:plated_elytra/iron_plated_elytra_armor",
+                        "amount": 3,
+                        "slot": "chest",
+                        "operation": "add_value"
+                    }
+                ]
+            },
+            "minecraft:custom_model_data": 1340002,
+            "minecraft:custom_name": "{\"translate\": \"item.plated_elytra.iron\", \"color\": \"yellow\", \"italic\": false}"
+        }
+    }
+}
