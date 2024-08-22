@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "Plate your elytra with armor pieces!",
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:custom_model_data": 1340001
+      }
+    },
+    "show_toast": false,
+    "title": "Plated Elytra"
+  },
+  "parent": "global:zerotask"
+}
